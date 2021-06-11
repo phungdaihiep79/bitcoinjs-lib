@@ -1,6 +1,6 @@
 'use strict';
 Object.defineProperty(exports, '__esModule', { value: true });
-const createHash = require('create-hash');
+const createHash = require('react-native-crypto').createHash;
 function ripemd160(buffer) {
   try {
     return createHash('rmd160')
