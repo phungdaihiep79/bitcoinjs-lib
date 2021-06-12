@@ -2,7 +2,7 @@ import { Network } from './networks';
 import * as NETWORKS from './networks';
 import * as types from './types';
 const ecc = require('tiny-secp256k1');
-const randomBytes = require('randombytes');
+const  randomBytes  = require('react-native-randombytes').randomBytes;
 const typeforce = require('typeforce');
 const wif = require('wif');
 

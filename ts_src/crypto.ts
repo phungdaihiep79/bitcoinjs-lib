@@ -1,4 +1,4 @@
-const createHash = require('create-hash');
+const createHash = require('react-native-crypto').createHash;
 
 export function ripemd160(buffer: Buffer): Buffer {
   try {
